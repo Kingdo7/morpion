@@ -1,0 +1,66 @@
+body > section {
+    display:flex;
+}
+
+nav.infos {
+    width:40%;
+    text-align: center;
+}
+
+nav.infos .content {
+   margin:0 2em;
+}
+
+nav.infos .content h2 {
+   margin:0;
+   padding:2em;
+}
+
+section.plateau {
+    width:60%;
+}
+
+header{
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    padding: 2em;
+    margin: 0 auto;
+}
+
+.grille {
+   width: 80%;
+   margin:1em auto;    
+}
+
+.ligne {
+    display:flex;
+    width:100%;
+}
+
+.cellule {
+    width:33%;
+    padding-top: 33%; /* 1:1 Aspect Ratio */
+    border:1px solid black;
+    background-color:grey;
+    position: relative;
+}
+
+.grille .forme{
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:none;
+}
+
+.tour {   
+    margin: 0 auto;
+    width: 200px;
+}
+
+.tour .cross{
+    display:none;
+}
