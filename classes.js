@@ -21,6 +21,6 @@ let partie = {
     ],
 
     finish: function(){
-        alert('fin de partie')
+        alert('Fin de partie, ' + partie.joueur_gagnant + ' a gagne !')
     }
 }
