@@ -81,9 +81,9 @@ $('document').ready(function(e){
 
                 // Poser le pion et changer de joueur
                 //$(this).children(".forme.cross").css('display','block');
-                $(partie.grille[ligne_index][cellule_index]).children(".forme.cross").css('display','block');
+                $('div#' + [ligne_index] + '_' + [cellule_index]).children(".forme.cross").css('display','block');
                 console.log('this', $(this).children(".forme.cross"));
-                console.log('test', $([ligne_index][cellule_index]).children(".forme.cross"));
+                console.log('test', $('div#' + [ligne_index] + '_' + [cellule_index]).children(".forme.cross"));
                 joueur_suivant = "circle";
                 $(".infos .tour .forme").toggle();
 
